@@ -54,7 +54,7 @@ BinaryStringTree::BinaryStringTree()
 }
 BinaryStringTree::~BinaryStringTree()
 {
-	if (m_head == NULL)
+	if (m_head != NULL)
 		delete m_head;
 }
 
